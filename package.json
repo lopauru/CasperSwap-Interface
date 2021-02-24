@@ -87,7 +87,7 @@
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'"
   },"engines": {
-    "node": "12.18.0",
+    "node": "12.18.0"
   },
   "browserslist": {
     "production": [
